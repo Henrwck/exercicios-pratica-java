@@ -1,0 +1,13 @@
+# Build output do Java
+target/
+*.class
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
