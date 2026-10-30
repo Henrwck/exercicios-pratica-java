@@ -9,7 +9,7 @@ void main() {
     sc.close();
 }
 
-abstract class Calculadora {
+static class Calculadora {
     static void analisarNumero(int num){
         System.out.printf("O número %d é %s e %s!", num,
                 (num == 0) ? "zero" : (num > 0) ? "positivo" : "negativo",
