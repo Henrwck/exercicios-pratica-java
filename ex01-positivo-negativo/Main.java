@@ -1,5 +1,12 @@
+import java.util.Scanner;
+
 void main() {
-    Calculadora.analisarNumero(67);
+    Scanner sc = new Scanner(System.in);
+
+    System.out.println("Digite um número:");
+    Calculadora.analisarNumero(sc.nextInt());
+
+    sc.close();
 }
 
 abstract class Calculadora {
