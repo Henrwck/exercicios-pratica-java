@@ -7,9 +7,9 @@ void main() {
     System.out.printf("O resultado é: %d", Calculadora.calculoNumero(sc.nextInt(), sc.nextInt()));
 }
 
-abstract class Calculadora {
+static class Calculadora {
     static int calculoNumero(int A, int B){
-        int C = 0;
+        int C;
 
         if (A == B){
             C = A+B;
